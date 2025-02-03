@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+<body>
+  <h1 id='title' class='text-center'>Registration Form</h1>
+  <p id='description'>Thank you for taking the time to help us improve the platform</p>
+  <form id='survey-form'>
+  <div>
+    <label id='name-label' for='name'>Name<input name='name' id='name' type='text' required placeholder='Enter your name'/></label>
+    </div>
+    <div>
+    <label id='email-label'>Email<input name='email' id='email' type='email' required placeholder='Enter your email'/></label>
+    </div>
+    <div>
+      <label id='number-label'>Age
+(optional)<input name='age' type='number' id='number' min='11' max='100' placeholder='Age'></label>
+      </div>
+      <div>
+        <p>Which option best describes your current role?</p>
+        <select id='dropdown' name='dropdown'>
+           <option value="">(select one)</option>
+            <option value="1">Student</option>
+            <option value="2">Full time Learn </option>
+            <option value="3">Full time job</option>
+            <option value="4">Other</option>
+            </select>
+        </div>
+        <div>
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+<label>Definitely<input name='2' value='definitely' type='radio' class="inline" checked class='input-radio' ></label>
+<label>Maybe<input name='2' value='maybe' type='radio' class="inline" checked class='input-radio' ></label>
+<label>Not sure<input name='2' value='not sure' type='radio' class="inline" checked class='input-radio' ></label>
+</div>
+<div>
+          <p>Whether you enjoy learning on this platform?</p>
+<label>I like<input name='1' value='I like' type='radio' class="inline" checked class='input-radio' ></label>
+<label>don't really like<input name='1' value='dont really like' type='radio' class="inline" checked class='input-radio' ></label>
+<label>don't like<input name='1' value='dont like' type='radio' class="inline" checked class='input-radio' ></label>
+</div>
+<div>
+<p>What would you like to see improved? (Check all that apply)</p>
+  <label><input type='checkbox' value='front-end'/>Front-end Projects</label>
+  <label><input type='checkbox' value='back-end'/>Back-end Projects</label>
+</div>
+<div>
+  <textarea></textarea>
+  </div>
+  <div>
+    <input type='submit' id='submit' value='Submit'>
+    </div>
+  </body>
