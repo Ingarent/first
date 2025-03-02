@@ -1,0 +1,41 @@
+* {
+  font: 25px "Times New Roman", Times, serif;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li {
+  margin: 16px 0;
+  word-spacing: 15px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: rgb(255, 255, 255);
+  padding: 30px 10px 10px 10px;
+  margin: auto;
+ width: 850px;
+ 
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+p, cite{
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+#main{
+  background-color: #eee;
+}
